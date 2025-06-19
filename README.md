@@ -10,7 +10,6 @@ This project was developed as part of my internship assignment to design and ver
 - Created a simulation-only version (bypassing clock divider) for fast testing
 - Developed testbenches to verify functionality:
   - `tb_top_module.v`: Full system simulation
-  - `tb_pattern_detector_direct.v`: Forced input to guarantee detection
 - Added clock divider (for hardware) and connected internal signals to ILA
 - Controlled reset through VIO and captured detection events using ILA on ZedBoard
 
